@@ -13,10 +13,7 @@ class Dog {
             this-> size = size;
             this-> color = color;
         }
-        /* Задаём и выводим размер */
-        void setSize(string s){
-            size = s;
-        }
+        /* Выводим размер */
         string getSize(){
             return size;
         }
@@ -44,17 +41,11 @@ class PetDog: public Dog {
             this-> name = name;
             this-> phone = phone;
         }
-        /* Задаём и выводим имя */
-        void setName(string s){
-            name = s;
-        }
+        /* Выводим имя */
         string getName(){
             return name;
         }
-        /* Задаём и выводим телефон владельца */
-        void setPhone(string s){
-            phone = s;
-        }
+        /* Выводим телефон владельца */
         string getPhone(){
             return phone;
         }
